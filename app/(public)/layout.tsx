@@ -12,8 +12,8 @@ export default function PublicLayout({
     <IntroWrapper>
       <PageTransition>
         <div className="flex min-h-screen flex-col relative">
-          {/* Background - pure black */}
-          <div className="fixed inset-0 -z-20" style={{ backgroundColor: '#000000' }}></div>
+          {/* Background - white for all pages, homepage will override with black sections */}
+          <div className="fixed inset-0 -z-20 bg-white"></div>
           {/* Subtle curved lines pattern - hidden on homepage with video */}
           <div className="fixed inset-0 -z-20 opacity-20">
             <div className="absolute top-0 left-0 w-full h-full">

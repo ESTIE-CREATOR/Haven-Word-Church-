@@ -68,7 +68,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-black">
       {/* Hero Section */}
       <section className="relative overflow-hidden min-h-screen flex items-center justify-center pb-16 bg-black">
         {/* Blue Overlay - starts from top, ends before "Our Services" text */}
